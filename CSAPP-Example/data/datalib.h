@@ -9,6 +9,7 @@
 #define datalib_h
 
 #include <stdio.h>
+#include <assert.h>
 
 #define bool int
 #define true 1

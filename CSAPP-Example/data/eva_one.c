@@ -9,9 +9,7 @@
 
 bool is_eva_one(int x) {
     
-    bool flag = false;
-    
-    
+    bool flag = (!~x) || (!x) || (x % 2) || (x >> 31);
     
     return flag;
 }
